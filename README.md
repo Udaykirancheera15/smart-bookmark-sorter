@@ -31,16 +31,16 @@ The project is organized as follows:
    ```bash
    git clone https://github.com/Udaykirancheera15/smart-bookmark-sorter.git
 
-    Open Firefox and navigate to about:debugging 
+  Open Firefox and navigate to about:debugging 
 
-    Click "Load Temporary Add-on" and select the manifest.json file from the cloned repository.
+Click "Load Temporary Add-on" and select the manifest.json file from the cloned repository.
 
-Usage
+## Usage
 
-    Click on the extension icon in the browser toolbar to open the popup.
-    Use the provided functionality to sort your bookmarks as needed.
+ Click on the extension icon in the browser toolbar to open the popup.
+ Use the provided functionality to sort your bookmarks as needed.
 
-Contribution
+## Contribution
 
 Feel free to contribute to this project by forking the repository and submitting pull requests. I welcome any suggestions for improving the extension!
 
