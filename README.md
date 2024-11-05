@@ -12,9 +12,17 @@ The Smart Bookmark Sorter is a simple browser extension I created for Firefox to
 ## Project Structure
 
 The project is organized as follows:
-
-smart-bookmark-sorter/ ├── background.js # Background script for managing bookmarks ├── manifest.json # Extension metadata and permissions ├── popup.html # HTML for the extension popup ├── popup.js # JavaScript for handling popup interactions ├── style.css # CSS for styling the popup └── icons/ # Icons for the extension ├── icon16.png # 16x16 icon ├── icon48.png # 48x48 icon └── icon128.png # 128x128 icon
-
+smart-bookmark-sorter/
+├── background.js
+├── manifest.json
+├── popup.html
+├── popup.js
+├── style.css
+└── icons/
+    ├── icon16.png
+    ├── icon48.png
+    └── icon128.png
+    
 bash
 
 
