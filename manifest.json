@@ -1,5 +1,5 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 2,
   "name": "Smart Bookmark Sorter",
   "version": "1.0",
   "description": "Automatically organize bookmarks based on categories and tags.",
@@ -8,9 +8,10 @@
     "storage"
   ],
   "background": {
-    "service_worker": "background.js"
+    "scripts": ["background.js"],
+    "persistent": false
   },
-  "action": {
+  "browser_action": {
     "default_popup": "popup.html",
     "default_icon": {
       "16": "icons/icon16.png",
