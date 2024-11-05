@@ -1,7 +1,7 @@
 # Smart Bookmark Sorter
 
 ## Overview
-The Smart Bookmark Sorter is a simple browser extension I created for Firefox to help manage the overwhelming number of bookmarks cluttering my toolbar. Frustrated by the disorganization, I developed this extension to meet my own needs. This project serves as a demonstration of the fundamentals of browser extension development, showcasing how to structure the extension, interact with browser APIs, and manage user interfaces. As a curious student, I aimed to deepen my understanding of how extensions function and how to implement their basic features.
+The Smart Bookmark Sorter is a simple browser extension I created for Firefox to help manage the overwhelming number of bookmarks cluttering my toolbar. Frustrated by the disorganization, I developed this extension to meet my needs. This project demonstrates the fundamentals of browser extension development, showcasing how to structure the extension, interact with browser APIs, and manage user interfaces. As a curious student, I aimed to deepen my understanding of how extensions function and how to implement their basic features.
 
 ## Features
 
@@ -12,7 +12,7 @@ The Smart Bookmark Sorter is a simple browser extension I created for Firefox to
 ## Project Structure
 
 The project is organized as follows:
-'''bash
+
     smart-bookmark-sorter/
     ├── background.js
     ├── manifest.json
@@ -31,9 +31,9 @@ The project is organized as follows:
    ```bash
    git clone https://github.com/Udaykirancheera15/smart-bookmark-sorter.git
 
-    Open Firefox and navigate to about:debugging#/runtime/this-firefox.
+    Open Firefox and navigate to about:debugging 
 
-    Click on "Load Temporary Add-on" and select the manifest.json file from the cloned repository.
+    Click "Load Temporary Add-on" and select the manifest.json file from the cloned repository.
 
 Usage
 
